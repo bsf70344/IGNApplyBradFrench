@@ -35,7 +35,6 @@ class ViewController: UIViewController {
     }
     
     func createUI() {
-        
         //Initializes positioning and the scrollView so we can add data
         self.view.backgroundColor = UIColor.black
         scrollView = UIScrollView(frame: CGRect(x: self.view.frame.width*0.02, y: UIApplication.shared.statusBarFrame.height, width: self.view.frame.width*0.96, height: self.view.frame.height-UIApplication.shared.statusBarFrame.height))
