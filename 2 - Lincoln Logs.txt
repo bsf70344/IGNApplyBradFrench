@@ -1,0 +1,36 @@
+How many lincoln logs would it take to replicate the Empire State Building?
+
+1) I am going with the assumption that the lincoln logs can hold their own, and that we only need an external replica of the Empire State Building. 
+This permits us to choose a mathematical formulas such as Surface Area, instead of volume. 
+
+2) Need to figure out the Empire State Building Surface Area - 87,120 ft²
+
+3) Need to figure out a lincoln log Surface Area - 
+  - I am going to assume we are going to use the 4.5 in x 3.4 in x 3.4 in Lincoln Log, where the side of the Log is square and not circle
+      Since Surface Area = A = 2wl + 2lh + 2hw
+      But, we need to remove the space for the divets, because it is not an exact rectangle.
+      So, we will break up the lincoln log (which is the 2nd one on https://makesomething.tv/sites/default/files/addimage/logs.jpg) 
+      into 5 different rectangles, find their surface Area, then add them up.
+      
+      1) Piece 1, far left: w = 3/8", h = 3/4", l = 3/4"
+          A = 2(3/8 * 3/4) + 2(3/4 * 3/4) + 2(3/8 * 3/4) = 2.25
+          
+      2) Piece 2, middle left, with divets: w = 3/4", h = (3/4 - 6/16) = 3/8", l = 3/4"
+          A = 2(3/4 * 3/4) + 2(3/4 * 3/8) + 2(3/8 * 3/4) = 2.25
+          
+      3) Piece 3, middle without divets: w = 4.5", h = 3/4", l = 3/4"
+          A = 2(4.5 * 3/4) + 2(3/4 * 3/4) + 2(4.5 * 3/4) = 14.625
+      
+      4) Piece 4, middle right, with divets: w = 3/4", h = (3/4 - 6/16) = 3/8", l = 3/4"
+          A = 2(3/4 * 3/4) + 2(3/4 * 3/8) + 2(3/8 * 3/4) = 2.25
+          
+      5) Piece 5, far right, without divets: w = 3/8", h = 3/4", l = 3/4"
+          A = 2(3/8 * 3/4) + 2(3/4 * 3/4) + 2(3/8 * 3/4) = 2.25
+        
+      Overall = 2.25*4 + 14.625 = 23.625in^2 = 0.1640625ft^2
+      
+4) Now that we know how much sqft for surface area that a lincoln log covers, we can now divide the Empire State Building Surface Area
+by the Lincoln Log Surface Area
+
+87,120 ft²/0.1640625ft^2 = 531017.142857 = 531018 logs. Remember, though, this only equates for the External part of the Empire State Building
+using the specific type of Lincoln Log.
