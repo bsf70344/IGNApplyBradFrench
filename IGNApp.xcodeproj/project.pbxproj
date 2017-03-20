@@ -14,6 +14,7 @@
 		E09996BF1E639C1800AEFFD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09996BD1E639C1800AEFFD7 /* LaunchScreen.storyboard */; };
 		E09996CA1E639C1800AEFFD7 /* IGNAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09996C91E639C1800AEFFD7 /* IGNAppTests.swift */; };
 		E09996D51E639C1800AEFFD7 /* IGNAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09996D41E639C1800AEFFD7 /* IGNAppUITests.swift */; };
+		E0F031E01E773EBC00A8A4F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F031DF1E773EBC00A8A4F5 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E09996D01E639C1800AEFFD7 /* IGNAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGNAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09996D41E639C1800AEFFD7 /* IGNAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGNAppUITests.swift; sourceTree = "<group>"; };
 		E09996D61E639C1800AEFFD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F031DF1E773EBC00A8A4F5 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				E09996B41E639C1800AEFFD7 /* AppDelegate.swift */,
 				E09996B61E639C1800AEFFD7 /* ViewController.swift */,
+				E0F031DF1E773EBC00A8A4F5 /* Post.swift */,
 				E09996B81E639C1800AEFFD7 /* Main.storyboard */,
 				E09996BB1E639C1800AEFFD7 /* Assets.xcassets */,
 				E09996BD1E639C1800AEFFD7 /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					E09996B01E639C1800AEFFD7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 338GE389KF;
 						ProvisioningStyle = Automatic;
 					};
 					E09996C41E639C1800AEFFD7 = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F031E01E773EBC00A8A4F5 /* Post.swift in Sources */,
 				E09996B71E639C1800AEFFD7 /* ViewController.swift in Sources */,
 				E09996B51E639C1800AEFFD7 /* AppDelegate.swift in Sources */,
 			);
@@ -412,7 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 338GE389KF;
 				INFOPLIST_FILE = IGNApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bradley-French.IGNApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 338GE389KF;
 				INFOPLIST_FILE = IGNApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Bradley-French.IGNApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +514,7 @@
 				E09996DB1E639C1800AEFFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E09996DC1E639C1800AEFFD7 /* Build configuration list for PBXNativeTarget "IGNAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				E09996DE1E639C1800AEFFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E09996DF1E639C1800AEFFD7 /* Build configuration list for PBXNativeTarget "IGNAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				E09996E11E639C1800AEFFD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
